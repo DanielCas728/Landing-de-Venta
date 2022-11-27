@@ -12,7 +12,7 @@
 
 <!--  Menu  --> 
 
-      <nav class="navbar navbar-light bg-light">
+      <nav class="navbar navbar-light bg-light shadow-lg fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="./asset/img/3.png" width="30" height="30" class="d-inline-block align-text-top">DIVPROCAS</a> 
           <ul class="nav justify-content-end">            
@@ -23,7 +23,7 @@
               <a class="nav-link" href="#servicios">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" id="contacto">Contacto</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -242,8 +242,8 @@
 
     <section>
       <div class="col-12">
-        <h3 class="display-2 text-center"><strong>Plataformas que utilizamos</strong><br></h3>
-    </div>
+        <h3 class="display-4 text-center text-success"><strong>Plataformas que utilizamos</strong><br></h3>
+      </div>
       <div class="py-5 bg-light">
         <div class="container">    
           <div class="row row-cols-0 row-cols-sm-5 row-cols-md-6 g-4">
@@ -284,6 +284,37 @@
         </div>
       </div>  
     </section>
+
+    <section class="pb-5 bg-black-50" id="contacto">  
+    
+      <div class="container">
+        <div class="col-12">
+          <h3 class="display-4 text-center text-success"><strong>Ponerse en contacto</strong><br></h3>
+        </div>
+          <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <form>
+                  <fieldset>
+                    <legend class="text-center">Uno de nuestro equipo se pondrá en contacto contigo en breve.</legend>
+                    <div class="mb-3">
+                      <label for="disabledTextInput" class="form-label">Nombre</label>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                      <label for="disabledTextInput" class="form-label">Email</label>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                      <label for="disabledTextInput" class="form-label">Teléfono</label>
+                      <input type="text" class="form-control"> 
+                    </div>
+                    <button type="submit" class="btn btn-secondary">Enviar</button>
+                  </fieldset>
+                </form>
+              </div>
+          </div>
+      </div>
+  </section>
 
     </main>
 
