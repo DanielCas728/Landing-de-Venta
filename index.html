@@ -15,18 +15,15 @@
       <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="./asset/img/3.png" width="30" height="30" class="d-inline-block align-text-top">DIVPROCAS</a> 
-          <ul class="nav justify-content-end">
+          <ul class="nav justify-content-end">            
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Active</a>
+              <a class="nav-link" href="#jumbotron">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#servicios">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link disabled" href="#" id="contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -36,20 +33,21 @@
 
 <!--  jumbotron --> 
 
-      <div class="p-5 mb-4 bg-light rounded-3 text-white bg-dark">
-        <div class="container-fluid p-5 text-end">
-          <h1 class="display-3 fw-bold">Divprocas</h1>
-          <p class="fs-4">Diseño - Análisis - Desarrollo - Soporte</p></p>          
-          <div class="d-flex flex-row-reverse bd-highlight ">   
-            <button class="btn btn-primary btn-lg p-2 bd-highlight " type="button">Contactanos</button>  
-            <input type="email" class="form-control p-2 bd-highlight mb" id="exampleFormControlInput1" placeholder="name@example.com" style="width: 25%">             
-          </div>
-          
-        </div>
-      </div>
+        <section class="p-5 mb-4 bg-light rounded-3 text-white bg-dark" id="jumbotron">
+                <div class="container-fluid p-5 text-end">
+                  <h1 class="display-3 fw-bold">Divprocas</h1>
+                  <p class="fs-4">Diseño - Análisis - Desarrollo - Soporte</p></p>          
+                  <div class="d-flex flex-row-reverse bd-highlight ">   
+                    <button class="btn btn-primary btn-lg p-2 bd-highlight " type="button">Contactanos</button>  
+                    <input type="email" class="form-control p-2 bd-highlight mb" id="exampleFormControlInput1" placeholder="name@example.com" style="width: 25%">             
+                  </div>          
+                </div>
+        </section>
 
-      <section>    
-        <div class="container">
+<!--  Servicios --> 
+
+      <section class="container" id="servicios">    
+      
             <div class="row">
                 <div class="col-12">
                     <h3 class="display-2 text-center text-success"><strong>¡Lo que hacemos!</strong><br></h3>
@@ -239,7 +237,7 @@
                 </div>
 
             </div>
-        </div>
+      
     </section>
 
     <section>
@@ -288,6 +286,8 @@
     </section>
 
     </main>
+
+    <!--  Pie --> 
 
     <footer class="blog-footer bg-dark text-white mb-0">
       <p class="p-5 text-center">Divprocas 2021 - Daniel Castillo</p>      
